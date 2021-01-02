@@ -1,0 +1,18 @@
+.clear-btn {
+  display: flex;
+  height: 6em;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s linear;
+  border-radius: 4px;
+}
+
+.clear-btn:hover {
+  background-color: rgba(0, 139, 139, 0.315);
+}

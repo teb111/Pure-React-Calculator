@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  height: 7em;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: lighter;
+  background-color: #01172f;
+  color: #888;
+  outline: 1px solid cornflowerblue;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.button:hover {
+  background-color: rgba(1, 23, 47, 0.795);
+  scale: 0.9;
+}
+
+.operator:hover {
+  background-color: rgba(41, 112, 69, 0.699);
+  scale: 0.8;
+}
+
+.operator {
+  background-color: #297045;
+  color: #fff;
+}
